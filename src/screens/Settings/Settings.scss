@@ -1,0 +1,72 @@
+.settings-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+ 
+}
+
+.settings-form {
+    width: 100%;
+    max-width: 250px;
+    padding: 30px 15px;
+    color: hsla(0, 0%, 100%, 0.5);
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+
+.settings-form__heading {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.settings-form__heading .settings-form__text {
+    margin-left: 10px;
+}
+
+.form-input__wrapper + .form-input__wrapper {
+    margin-top: 15px;
+}
+
+.form-input__label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #333333;
+}
+
+.form-input__inner {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 5px;
+}
+
+.form-input__inner .form-input {
+    background-color: rgb(25, 25, 25);
+    border: none;
+    margin-left: 5px;
+    outline: 0;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.settings-submit__btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD369;
+    cursor: pointer;
+}

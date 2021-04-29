@@ -1,0 +1,32 @@
+.dashchart-nav-list {
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.dashchart-nav-item {
+    flex-grow: 1;
+}
+
+.dashchart-nav-link {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: #252733;
+    text-decoration: none;
+}
+
+.dashchart-nav-link--active{
+    color: #FFD369;
+}

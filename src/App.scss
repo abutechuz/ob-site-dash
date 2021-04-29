@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src:
+  url('assets/fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+  url('assets/fonts/roboto-v27-latin-regular.woff') format('woff'); 
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: 
+  url('assets/fonts/roboto-v27-latin-500.woff2') format('woff2'),
+  url('assets/fonts/roboto-v27-latin-500.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src:
+  url('assets/fonts/roboto-v27-latin-700.woff2') format('woff2'), 
+  url('assets/fonts/roboto-v27-latin-700.woff') format('woff'); 
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Robot", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #E5E5E5;
+  color: #222;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1250px;
+  padding: 0 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-main {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.site-content {
+  width: 100%;
+}
+.title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #4f4f4f;
+}
+.text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #4f4f4f;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  
+}

@@ -1,0 +1,14 @@
+.stats {
+  overflow-y: auto;
+  height: 83vh;
+  padding-bottom: 25px;
+}
+.stats__container {
+  display: flex;
+  align-items: flex-start;
+}
+.stats__inner {
+ width: 64%;
+ flex-shrink: 0;
+ margin-right: 20px;
+}

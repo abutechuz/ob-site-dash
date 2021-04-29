@@ -1,0 +1,45 @@
+.user-table__wrapper {
+    width: 950px;
+    border: 1px solid #dfe0eb;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.user-section__heading {
+    margin-bottom: 20px;
+}
+
+.user-table {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.user-table__head-th,
+.user-table__body-td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.user-table__head-th-id,
+.user-table__body-td-id {
+    width: 30px;
+}
+
+.user-table__body-td-score .user-table__score-clear {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}

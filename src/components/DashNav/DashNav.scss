@@ -1,0 +1,137 @@
+.site-navigation {
+    background-color: #363740;
+    height: 100vh;
+}
+.site-navigation__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+    width: 255px;
+    width: 100%;
+    height: 100%;
+}
+.site-navigation__logo-link {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.site-navigation__logo-img {
+    display: block;
+    width: 200px;
+    height: 80px;
+}
+.site-navigation__nav {
+    height: 100%;
+    flex-grow: 1;
+}
+
+.nav__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.nav__list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav__list {
+    scrollbar-width: thin;
+    scrollbar-color: #363740;
+}
+
+.nav__list::-webkit-scrollbar-track {
+    background: #363740;
+    border-radius: 6px;
+}
+
+.nav__list::-webkit-scrollbar-thumb {
+    background-color: #ffd369;
+    border-radius: 6px;
+    border: 3px solid #ffd369;
+}
+
+.nav__item {
+    width: 100%;
+
+    &:last-child {
+        border-top: 2px solid #dde2ffab;
+        margin-top: auto;
+    }
+}
+.nav__link {
+    padding: 20px 24px 20px 20px;
+    display: flex;
+    align-items: center;
+    width: 255px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    color: #a4a6b3;
+    position: relative;
+    transition: all 0.1s ease;
+
+    &::before {
+        content: '';
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(159, 162, 180, 0.08);
+        z-index: 0;
+        border-left: 3px solid #ffd369;
+    }
+    &:hover::before {
+        display: block;
+    }
+    &:hover .nav__link-svg path {
+        fill: #ffd369;
+        color: #ffd369;
+    }
+    &:hover {
+        color: #dde2ff;
+    }
+}
+
+.nav__link-svg path {
+    fill: #60626e;
+}
+.nav__link-svg {
+    color: #60626e;
+}
+
+.nav__link--active {
+    color: #dde2ff;
+
+    &::before {
+        display: block;
+    }
+
+    .nav__link-svg path {
+        fill: #ffd369;
+    }
+    .nav__link-svg {
+        color: #ffd369;
+    }
+}
+
+.nav__link-span {
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    width: 80%;
+}
+.nav__link-svg {
+    z-index: 1;
+    margin-right: 24px;
+}
