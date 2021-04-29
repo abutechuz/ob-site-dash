@@ -1,0 +1,155 @@
+{
+    "/videos": {
+        
+            "description": "Get, Add, Update, Delete Videos",
+            "tags": [
+                "Auth required for Add,Update and Delete"
+            ],
+            "methods": {
+                "get": {
+                    "description": "all videos"
+                },
+                "post": {
+                    "description": "post new video"
+                },
+                "put": {
+                    "description": "update existing video"
+                },
+                 "delete": {
+                    "description": "delete existing video"
+                }
+            }
+    },
+
+    "/team": {
+        
+            "description": "Get, Add, Update, Delete Team Member",
+            "tags": [
+                "Auth required for Add,Update and Delete"
+            ],
+            "methods": {
+                "get": {
+                    "description": "all members"
+                },
+                "post": {
+                    "description": "post new member"
+                },
+                "put": {
+                    "description": "update existing member"
+                },
+                 "delete": {
+                    "description": "delete existing member"
+                }
+            }
+    },
+
+    "/products": {
+        
+            "description": "Get, Add, Update, Delete Products",
+            "tags": [
+                "Auth required for Add,Update and Delete"
+            ],
+            "methods": {
+                "get": {
+                    "description": "all products"
+                },
+                "post": {
+                    "description": "post new product"
+                },
+                "put": {
+                    "description": "update existing product"
+                },
+                 "delete": {
+                    "description": "delete existing product"
+                }
+            }
+    },
+    
+    "/categories": {
+        
+            "description": "Get, Add, Update, Delete Categories",
+            "tags": [
+                "Auth required for Add,Update and Delete"
+            ],
+            "methods": {
+                "get": {
+                    "description": "all categories"
+                },
+                "post": {
+                    "description": "post new category"
+                },
+                "put": {
+                    "description": "update existing category"
+                },
+                 "delete": {
+                    "description": "delete existing category"
+                }
+            }
+    },
+
+    "/stores": {
+        
+            "description": "Get, Add, Update, Delete Stores",
+            "tags": [
+                "Auth required for Add,Update and Delete"
+            ],
+            "methods": {
+                "get": {
+                    "description": "all stores"
+                },
+                "post": {
+                    "description": "post new store"
+                },
+                "put": {
+                    "description": "update existing store"
+                },
+                 "delete": {
+                    "description": "delete existing store"
+                }
+            }
+    },
+
+    "/offers": {
+        
+            "description": "Get, Add, Update, Delete Offers",
+            "tags": [
+                "Auth required for Update and Delete"
+            ],
+            "methods": {
+                "get": {
+                    "description": "all offers"
+                },
+                "post": {
+                    "description": "post new offer"
+                },
+                "put": {
+                    "description": "update existing offer"
+                },
+                 "delete": {
+                    "description": "delete existing offer"
+                }
+            }
+    },
+
+    "/orders": {
+        
+            "description": "Get, Add, Update, Delete Orders",
+            "tags": [
+                "Auth required for Update and Delete"
+            ],
+            "methods": {
+                "get": {
+                    "description": "all orders"
+                },
+                "post": {
+                    "description": "post new order"
+                },
+                "put": {
+                    "description": "update existing order"
+                },
+                 "delete": {
+                    "description": "delete existing order"
+                }
+            }
+    }
+}

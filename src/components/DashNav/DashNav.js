@@ -37,7 +37,7 @@ function DashNav() {
                                     exact>
                                     <Statistik className='nav__link-svg' />
                                     <span className='nav__link-span'>
-                                        Statistika
+                                        Orders
                                     </span>
                                 </NavLink>
                             </li>
@@ -45,10 +45,10 @@ function DashNav() {
                                 <NavLink
                                     className='nav__link'
                                     activeClassName='nav__link--active'
-                                    to='/chart-stat'>
+                                    to='/offers'>
                                     <IconGraph className='nav__link-svg' />
                                     <span className='nav__link-span'>
-                                        Graph
+                                        Offers
                                     </span>
                                 </NavLink>
                             </li>
@@ -56,10 +56,10 @@ function DashNav() {
                                 <NavLink
                                     className='nav__link'
                                     activeClassName='nav__link--active'
-                                    to='/question'>
+                                    to='/stores'>
                                     <IconQuestion className='nav__link-svg' />
                                     <span className='nav__link-span'>
-                                        Savollar
+                                        Stores
                                     </span>
                                 </NavLink>
                             </li>
@@ -67,10 +67,10 @@ function DashNav() {
                                 <NavLink
                                     className='nav__link'
                                     activeClassName='nav__link--active'
-                                    to='/offer'>
+                                    to='/categories'>
                                     <IconOffer className='nav__link-svg' />
                                     <span className='nav__link-span'>
-                                        Takliflar
+                                        Categories
                                     </span>
                                 </NavLink>
                             </li>
@@ -78,10 +78,10 @@ function DashNav() {
                                 <NavLink
                                     className='nav__link'
                                     activeClassName='nav__link--active'
-                                    to='/speaker'>
+                                    to='/products'>
                                     <IconSpeakers className='nav__link-svg' />
                                     <span className='nav__link-span'>
-                                        Speakerlar
+                                        Products
                                     </span>
                                 </NavLink>
                             </li>
@@ -89,40 +89,34 @@ function DashNav() {
                                 <NavLink
                                     className='nav__link'
                                     activeClassName='nav__link--active'
-                                    to='/users'>
+                                    to='/team'>
                                     <IconUsers className='nav__link-svg' />
-                                    <span className='nav__link-span'>
-                                        Foydalanuvchilar
-                                    </span>
+                                    <span className='nav__link-span'>Team</span>
                                 </NavLink>
                             </li>
                             <li className='nav__item'>
                                 <NavLink
                                     className='nav__link'
                                     activeClassName='nav__link--active'
-                                    to='/posts'>
+                                    to='/videos'>
                                     <IconPost className='nav__link-svg' />
                                     <span className='nav__link-span'>
-                                        Posts
+                                        Videos
                                     </span>
                                 </NavLink>
                             </li>
                             <li className='nav__item'>
-                                <NavLink
+                                <a
                                     className='nav__link'
-                                    activeClassName='nav__link--active'
-                                    to='/webdash'>
+                                    href='http://165.227.211.149/'>
                                     <IconWebsite className='nav__link-svg' />
                                     <span className='nav__link-span'>
-                                        Website Dashboard
+                                        Bot Dashboard
                                     </span>
-                                </NavLink>
+                                </a>
                             </li>
                             <li className='nav__item'>
-                                <NavLink
-                                    className='nav__link'
-                                    activeClassName='nav__link--active'
-                                    to='/settings'>
+                                <NavLink className='nav__link' to='/settings'>
                                     <Seting className='nav__link-svg' />
                                     <span className='nav__link-span'>
                                         Setings
