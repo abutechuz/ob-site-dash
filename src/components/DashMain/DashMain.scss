@@ -1,6 +1,6 @@
 .genral-stat {
     padding: 15px 0;
-    background-color: #ffd369;
+    background-color: #3edbf0;
     width: 100%;
 }
 .genral-stat__container {
@@ -72,12 +72,12 @@
     color: #4f4f4f;
 }
 .genral-stat__item-svg-link path {
-    fill: rgb(244, 202, 22);
+    fill: #3edbf0;
 }
 
 .genral-stat__item-svg-link {
     &:hover path {
-        fill: #ffd369;
+        fill: #3edbf0;
     }
 }
 .genral-stat__item-botom {

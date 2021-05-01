@@ -11,10 +11,20 @@
     width: 100%;
     height: 100%;
 }
+
+.logo-heading{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.2;
+}
+
 .site-navigation__logo-link {
     display: block;
     margin-left: 20px;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 .site-navigation__logo-img {
     display: block;
@@ -52,9 +62,9 @@
 }
 
 .nav__list::-webkit-scrollbar-thumb {
-    background-color: #ffd369;
+    background-color: #3edbf0;
     border-radius: 6px;
-    border: 3px solid #ffd369;
+    border: 3px solid #3edbf0;
 }
 
 .nav__item {
@@ -89,14 +99,14 @@
         height: 100%;
         background-color: rgba(159, 162, 180, 0.08);
         z-index: 0;
-        border-left: 3px solid #ffd369;
+        border-left: 3px solid #3edbf0;
     }
     &:hover::before {
         display: block;
     }
     &:hover .nav__link-svg path {
-        fill: #ffd369;
-        color: #ffd369;
+        fill: #3edbf0;
+        color: #3edbf0;
     }
     &:hover {
         color: #dde2ff;
@@ -118,10 +128,10 @@
     }
 
     .nav__link-svg path {
-        fill: #ffd369;
+        fill: #3edbf0;
     }
     .nav__link-svg {
-        color: #ffd369;
+        color: #3edbf0;
     }
 }
 

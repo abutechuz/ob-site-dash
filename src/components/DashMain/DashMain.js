@@ -1,16 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './DashMain.scss'
-import { Male, Female, Statistik } from '../Svgs/Svgs'
+import { Statistik } from '../Svgs/Svgs'
 import Container from '../Container/Container'
 import { useQuery } from 'react-query'
 import { client } from '../../utils/api-client'
 
 function DashMain() {
-    const { data, isSuccess } = useQuery({
-        queryKey: 'gender',
-        queryFn: () => client('gender'),
-    })
     const { data: users, isSuccess: isSuccessUser } = useQuery({
         queryKey: 'users',
         queryFn: () => client('users'),

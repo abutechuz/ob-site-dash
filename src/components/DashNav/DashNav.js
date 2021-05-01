@@ -19,13 +19,10 @@ function DashNav() {
             <div className='site-navigation'>
                 <div className='site-navigation__container'>
                     <NavLink className='site-navigation__logo-link' to='/'>
-                        <img
-                            className='site-navigation__logo-img'
-                            src={oBLogo}
-                            alt='Osmondagi bolalar'
-                            width='85'
-                            height='52'
-                        />
+                        <p className='logo-heading'>
+                            Osmondagi bolalar <br />
+                            website
+                        </p>
                     </NavLink>
                     <nav className='site-navigation__nav nav'>
                         <ul className='nav__list'>

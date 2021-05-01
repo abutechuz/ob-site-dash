@@ -9,7 +9,7 @@ import Categories from './screens/Categories/Categories'
 import Products from './screens/Products/Products'
 import Team from './screens/Team/Team'
 import Videos from './screens/Videos/Videos'
-import DashChart from './screens/DashChart/DashChart'
+
 import Settings from './screens/Settings/Settings'
 
 function AuthenticatedApp() {
@@ -32,7 +32,7 @@ function AuthenticatedApp() {
                         <Route path='/team' component={Team} exact />
                         <Route path='/videos' component={Videos} exact />
                         <Route path='/settings' component={Settings} exact />
-                        <Route path='/chart-stat' component={DashChart} />
+                        
                     </Switch>
                 </div>
             </div>
